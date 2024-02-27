@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.block {
+  margin: 20px;
+  height: 300px;
+  background: url('img/1.jpg');
+  
+}
+.block img {
+    width: 383px;
+    height: 239.375px;
+    align-items: flex-start;
+}
+img:nth-child(2){
+    width: 383px;
+    height: 239.375px;
+    justify-content: space-around;
+    float: right; /*Прижать к прав краю*/
+    position: relative;
+    bottom: -62px;
+}
+.container {
+  margin: 20px;
+  height: 300px;
+  background: url('img/1k.webp');
+}
+.container>img {
+    filter: alpha(Opacity=25);
+    opacity: 0.35;
+    width: 100%;
+    height: 100%;
+}
